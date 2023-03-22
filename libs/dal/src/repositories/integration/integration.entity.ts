@@ -19,6 +19,8 @@ export interface ICredentials {
   clientId?: string;
   projectName?: string;
   serviceAccount?: string;
+  route?: string;
+  dltEntity?: string;
 }
 
 export class IntegrationEntity {

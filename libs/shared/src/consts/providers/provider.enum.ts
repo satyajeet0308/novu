@@ -20,6 +20,8 @@ export enum CredentialsKeyEnum {
   ProjectName = 'projectName',
   ServiceAccount = 'serviceAccount',
   BaseUrl = 'baseUrl',
+  Route = 'route',
+  Dltentityid = 'dltentityid',
 }
 
 export enum EmailProviderIdEnum {
@@ -44,6 +46,7 @@ export enum SmsProviderIdEnum {
   Twilio = 'twilio',
   Gupshup = 'gupshup',
   Firetext = 'firetext',
+  Bulksms = 'bulksms',
 }
 
 export enum ChatProviderIdEnum {

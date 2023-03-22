@@ -1,0 +1,30 @@
+export var EmailEventStatusEnum;
+(function (EmailEventStatusEnum) {
+    EmailEventStatusEnum["OPENED"] = "opened";
+    EmailEventStatusEnum["REJECTED"] = "rejected";
+    EmailEventStatusEnum["SENT"] = "sent";
+    EmailEventStatusEnum["DEFERRED"] = "deferred";
+    EmailEventStatusEnum["DELIVERED"] = "delivered";
+    EmailEventStatusEnum["BOUNCED"] = "bounced";
+    EmailEventStatusEnum["DROPPED"] = "dropped";
+    EmailEventStatusEnum["CLICKED"] = "clicked";
+    EmailEventStatusEnum["BLOCKED"] = "blocked";
+    EmailEventStatusEnum["SPAM"] = "spam";
+    EmailEventStatusEnum["UNSUBSCRIBED"] = "unsubscribed";
+    EmailEventStatusEnum["SPAM_COMPLAINED"] = "spam complained";
+    EmailEventStatusEnum["SUBSCRIPTION_CHANGED"] = "subscription changed";
+})(EmailEventStatusEnum || (EmailEventStatusEnum = {}));
+export var SmsEventStatusEnum;
+(function (SmsEventStatusEnum) {
+    SmsEventStatusEnum["CREATED"] = "created";
+    SmsEventStatusEnum["DELIVERED"] = "delivered";
+    SmsEventStatusEnum["RECEIVED"] = "received";
+    SmsEventStatusEnum["ACCEPTED"] = "accepted";
+    SmsEventStatusEnum["QUEUED"] = "queued";
+    SmsEventStatusEnum["SENDING"] = "sending";
+    SmsEventStatusEnum["SENT"] = "sent";
+    SmsEventStatusEnum["FAILED"] = "failed";
+    SmsEventStatusEnum["UNDELIVERED"] = "undelivered";
+    SmsEventStatusEnum["RECEIVING"] = "receiving";
+    SmsEventStatusEnum["DELIVERY_UNCONFIRMED"] = "delivery unconfirmed";
+})(SmsEventStatusEnum || (SmsEventStatusEnum = {}));
